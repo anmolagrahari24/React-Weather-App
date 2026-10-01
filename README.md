@@ -97,13 +97,6 @@ import.meta.env.VITE_WEATHER_API_KEY
 4. React updates the UI with the weather details.
 5. Users can search for another city whenever they want.
 
-## 📸 Screenshots
-
-Add screenshots of your application here:
-
-```text
-![Weather App Screenshot](./screenshots/weather-app.png)
-```
 
 ## 🎯 Future Improvements
 
@@ -121,6 +114,3 @@ Add screenshots of your application here:
 * GitHub: `@anmolagrahari24`
 * LinkedIn: `anmol-agrahari-8542132a2`
 
-## 📄 License
-
-This project is created for learning and educational purposes.
