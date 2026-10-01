@@ -1,26 +1,126 @@
-# GET WEATHER AROUND: React JS Project
+# 🌤️ React-Weather App
 
-Build a weather app in react js using Open Weather API.
+A simple and responsive **Weather Application built with React.js** that allows users to search for a city and view its current weather information.
 
-## Follow Below Instructions:
+## 🚀 Features
 
-#### Use This command in cmd or terminal to download starter-code file:
-1. git clone 'Repo Link'
+* 🌍 Search weather by city name
+* 🌡️ Display current temperature
+* 💧 Show humidity information
+* 💨 Display wind speed
+* ☁️ Show weather conditions
+* 📱 Responsive design for desktop and mobile
+* ⚡ Fast and user-friendly interface
+* 🔄 Fetches real-time weather data using a Weather API
 
-2. Put your API Key in Weather.js File.
+## 🛠️ Technologies Used
 
-3. Then do npm install & npm start
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
+* **Weather API**
+* **Axios / Fetch API**
+* **Vite / Create React App**
 
-#### You can follow Tutorial from channel.
-https://www.youtube.com/@shivanshvasu
+## 📂 Project Structure
 
--- In the project directory, you can run:
+```text
+React-Weather-app/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+├── .gitignore
+├── package.json
+└── README.md
+```
 
-### `npm start`
+## ⚙️ Installation & Setup
 
--- Runs the app in the development mode.<br />
--- Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### 1. Clone the repository
 
-## Contact
-Comment on Channel: 'https://www.youtube.com/@shivanshvasu'
-Or mail at 'theshivanshvasu@gmail.com' for any queries.
+```bash
+git clone https://github.com/anmolagrahari24/React-Weather-app.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd React-Weather-app
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will run locally at the URL shown in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+## 🔑 API Configuration
+
+If your application uses an API key, create a `.env` file in the project root:
+
+```env
+VITE_WEATHER_API_KEY=your_api_key_here
+```
+
+Then access it in your React application using:
+
+```javascript
+import.meta.env.VITE_WEATHER_API_KEY
+```
+
+> Never upload your API key or `.env` file to GitHub.
+
+## 💡 How It Works
+
+1. User enters a city name in the search box.
+2. The application sends a request to the weather API.
+3. The API returns the current weather information.
+4. React updates the UI with the weather details.
+5. Users can search for another city whenever they want.
+
+## 📸 Screenshots
+
+Add screenshots of your application here:
+
+```text
+![Weather App Screenshot](./screenshots/weather-app.png)
+```
+
+## 🎯 Future Improvements
+
+* 📍 Detect weather using the user's current location
+* 🌦️ Add a 5-day weather forecast
+* 🌙 Add dark/light mode
+* 🌡️ Add Celsius/Fahrenheit conversion
+* 🌅 Add weather-based backgrounds
+* 📊 Display additional weather information
+
+## 👨‍💻 Author
+
+**Anmol Agrahari**
+
+* GitHub: `@anmolagrahari24`
+* LinkedIn: `anmol-agrahari-8542132a2`
+
+## 📄 License
+
+This project is created for learning and educational purposes.
